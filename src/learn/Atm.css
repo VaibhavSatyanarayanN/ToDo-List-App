@@ -1,0 +1,101 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.atm--card {
+  position: relative;
+  top: 50px;
+  right: 10px;
+}
+.main--input {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 70px 20px 20px 60px;
+  box-shadow: 2px 2px 2px 2px rgb(153, 151, 151);
+  border: 2px solid black;
+}
+.front {
+  padding: 35px 0 0 45px;
+  height: 130px;
+  width: 230px;
+  background-color: #00c9b8;
+  border-radius: 0.5rem;
+  margin-left: 20px;
+  border: 2px solid black;
+}
+.back {
+  padding: 35px 0 0 35px;
+  height: 130px;
+  width: 230px;
+  background-color: #fe5e54;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  margin-left: 20px;
+}
+.cvv {
+  margin: 20px 0 0 20px;
+  width: 200px;
+}
+.display {
+  display: flex;
+  justify-content: flex-end;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+.display--no {
+  letter-spacing: 4px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+.display--name {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 30px;
+  right: 40px;
+  margin: 5px;
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+.display--time {
+  position: relative;
+  left: 150px;
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+.main--form {
+  display: flex;
+  padding: 20px;
+}
+.month {
+  margin-right: 5px;
+}
+.cvv1 {
+  width: 50px;
+}

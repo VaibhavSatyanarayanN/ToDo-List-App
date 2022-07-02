@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=M+PLUS+1p:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Bubblegum+Sans&family=M+PLUS+1p:wght@300&family=Supermercado+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222, 194, 248);
+}
+
+.center-div {
+    margin-top: 80px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 500px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family:'Bubblegum Sans', "M PLUS 1p", sans-serif;
+    margin-top: 5px;
+    background-color: rgb(192, 132, 249);
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    font-family: 'Bubblegum Sans',"M PLUS 1p", sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid blueviolet;
+    height: 30px;
+    width: 180px;
+    border-color: blueviolet;
+    background-color: aliceblue;
+    outline: none;
+    text-align: center;
+    font-size: larger;
+}
+
+.in-btn {
+    padding: 0;
+    text-align: center;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: rgb(192, 132, 249);
+    color: aliceblue;
+    font-size: 30px;
+    outline: none;
+    font-weight: 600;
+}
+
+.in-btn:hover {
+    background-color: rgb(15, 190, 15);
+}
+
+ul {
+    font-family:'Bubblegum Sans', "M PLUS 1p", sans-serif;
+    margin-top: 30px;
+    list-style: none;
+    font-size: larger;
+}
+li{
+    margin-top: 3px;
+}
+
+.out-btn {
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 23px;
+    height: 23px;
+    border: none;
+    background-color: rgb(192, 132, 249);
+    color: aliceblue;
+    font-size: 15px;
+    outline: none;
+    text-align: center;
+    font-weight: 900;
+}
+.out-btn:hover {
+    background-color: rgb(215, 41, 41);
+}
+
+footer{
+    font-family:'Bubblegum Sans', "M PLUS 1p", sans-serif;
+    margin-top: 5px;
+    background-color: rgb(192, 132, 249);
+    color: aliceblue;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: auto;
+    padding-top: 10px;
+}
+  
